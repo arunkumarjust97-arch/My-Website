@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "framework": null,
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/(.*)\\.css",
+      "headers": [{ "key": "Content-Type", "value": "text/css; charset=utf-8" }]
+    }
+  ]
+}
