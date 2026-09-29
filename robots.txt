@@ -1,0 +1,24 @@
+# Robots.txt for Arun kumar Saravanan Portfolio
+# Allow all search engine crawlers and indexers
+
+User-agent: *
+Allow: /
+Allow: /assets/arunkumar_resume.pdf
+Disallow: /package.json
+Disallow: /.gitignore
+
+# Search Engine Specific Directives
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Sitemap Location
+Sitemap: http://localhost:5173/sitemap.xml

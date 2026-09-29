@@ -1,0 +1,22 @@
+{
+  "name": "arunkumar-portfolio",
+  "version": "1.0.0",
+  "description": "Professional Portfolio Website of Arun kumar Saravanan - Computer & Software Engineer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node deep_audit.js",
+    "audit": "node audit.js"
+  },
+  "keywords": [
+    "portfolio",
+    "java",
+    "spring-boot",
+    "android",
+    "software-engineer",
+    "resume"
+  ],
+  "author": "Arun kumar Saravanan",
+  "license": "MIT"
+}
